@@ -1,0 +1,12 @@
+[submodule "translation-test"]
+	path = translation-test
+	url = git@github.com:martinluttap/translation-test.git
+[submodule "wfe-log-parser"]
+	path = wfe-log-parser
+	url = git@github.com:martinluttap/wfe-log-parser.git
+[submodule "cwl-translator"]
+	path = cwl-translator
+	url = git@github.com:martinluttap/cwl-translator.git
+[submodule "nf/martin-rnaseq-nf"]
+	path = nf/martin-rnaseq-nf
+	url = git@github.com:martinluttap/martin-rnaseq-nf.git
