@@ -1,2 +1,21 @@
+# Folders
 cwl/
 gdc-workflows/
+
+# Files
+*.txt
+*work/
+*results/
+*.nextflow/
+*.nextflow*
+*__pycache__
+*.config
+*.py
+*.yaml
+*.png
+*.txt
+*.html
+
+# Config and YAML files with paths removed
+!example_nextflow.config
+!example_input.yaml
