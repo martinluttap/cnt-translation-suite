@@ -4,8 +4,8 @@
 [submodule "wfe-log-parser"]
 	path = wfe-log-parser
 	url = git@github.com:martinluttap/wfe-log-parser.git
-[submodule "cwl-translator"]
-	path = cwl-translator
+[submodule "cnt"]
+	path = cnt
 	url = git@github.com:martinluttap/cwl-translator.git
 [submodule "nf/martin-rnaseq-nf"]
 	path = nf/martin-rnaseq-nf
