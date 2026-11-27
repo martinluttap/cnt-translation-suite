@@ -1,13 +1,13 @@
 # CNT: A Semi-Automatic Translator from CWL to Nextflow for Genomics Workflows. 
 
 CNT is a semi-automatic translator which performs both tool-level and workflow-level translation of CWL files into Nextflow. 
-CNT utilizes [https://github.com/common-workflow-language/cwl-utils](cwl-utils), a library of classes for manipulating CWL files, to transform them into an intermediate representation (e.g. JSON) then proceed to rearrange it according to [https://nextflow-io.github.io/patterns/](patterns) devised by Nextflow's community.
+CNT utilizes `cwl-utils`, a library of classes for manipulating CWL files, to transform them into an intermediate representation (e.g. JSON) then proceed to rearrange it according to patterns devised by Nextflow's community.
 
 ## Installation
 Make sure you have pulled all the submodules in the repository. Then, install the required packages:
 ```
 cd cnt
-python3 -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
