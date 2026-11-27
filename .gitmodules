@@ -6,7 +6,7 @@
 	url = git@github.com:martinluttap/wfe-log-parser.git
 [submodule "cnt"]
 	path = cnt
-	url = git@github.com:martinluttap/cwl-translator.git
+	url = git@github.com:martinluttap/CNT.git
 [submodule "nf/martin-rnaseq-nf"]
 	path = nf/martin-rnaseq-nf
 	url = git@github.com:martinluttap/martin-rnaseq-nf.git
