@@ -4,10 +4,17 @@ CNT is a semi-automatic translator which performs both tool-level and workflow-l
 CNT utilizes [https://github.com/common-workflow-language/cwl-utils](cwl-utils), a library of classes for manipulating CWL files, to transform them into an intermediate representation (e.g. JSON) then proceed to rearrange it according to [https://nextflow-io.github.io/patterns/](patterns) devised by Nextflow's community.
 
 ## Installation
-TBD. 
+Make sure you have pulled all the submodules in the repository. Then, install the required packages:
+```
+cd cnt
+python3 -r requirements.txt
+```
 
 ## Usage
-TBD.
+```
+cd cnt
+python3 main.py ../sample-workflows/gdc-rnaseq-cwl/rnaseq-star-align/subworkflows/gdc_rnaseq_main_workflow.cwl --export-to-dir output/
+```
 
 ## Notes
 
