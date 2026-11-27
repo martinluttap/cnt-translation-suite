@@ -7,9 +7,6 @@
 [submodule "cnt"]
 	path = cnt
 	url = git@github.com:martinluttap/CNT.git
-[submodule "nf/martin-rnaseq-nf"]
-	path = nf/martin-rnaseq-nf
-	url = git@github.com:martinluttap/martin-rnaseq-nf.git
 [submodule "sample-workflows/gdc-rnaseq-cwl"]
 	path = sample-workflows/gdc-rnaseq-cwl
 	url = https://github.com/NCI-GDC/gdc-rnaseq-cwl.git
