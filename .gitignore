@@ -15,6 +15,7 @@ gdc-workflows/
 *.png
 *.txt
 *.html
+*.log
 
 # Config and YAML files with paths removed
 !example_nextflow.config
